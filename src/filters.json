@@ -1,0 +1,39 @@
+{
+  "Skin Types": ["All", "Combination", "Dehydrated", "Dry", "Normal"],
+  "Skincare Day / Night": ["Any", "Day", "Night"],
+  "Skin Concern": [
+    "Acne / Blemish",
+    "Anti Pollution",
+    "Blackheads/Whiteheads",
+    "Dark Circles",
+    "Dry Skin",
+    "Dull Skin",
+    "Fine Lines / Wrinkles",
+    "Hyperpigmentation",
+    "Oiliness / Shine",
+    "Pregnancy Safe",
+    "Psoriasis / Eczema",
+    "Puffy Eyes",
+    "Redness / Rosacea",
+    "Scarring",
+    "Sensitive Skin",
+    "Visible Pores"
+  ],
+  "Key Ingredients": [
+    "AHA / BHA",
+    "Antioxidants",
+    "Azelaic Acid",
+    "Collagen",
+    "Glycolic Acid",
+    "Hyaluronic Acid",
+    "Niacinamide",
+    "Retinol",
+    "Vitamin C",
+    "Zinc Oxide",
+    "Salicylic Acid",
+    "Rosehip Oil",
+    "Lactic Acid",
+    "SPF",
+    "Vegan"
+  ]
+}
