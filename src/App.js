@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import filters from "./filters.json";
+const container = { maxWidth: "800px", margin: "1rem 3rem" };
 function Fields({ handleChange }) {
   return Object.keys(filters).map((key) => (
     <Field key={key} filterName={key} handleChange={handleChange} />
@@ -65,8 +66,21 @@ function App() {
         type="text"
         value={appliedFilters.join(";")}
       />
-
-      <div style={{ maxWidth: "800px", margin: "3rem" }} className="container">
+      <div style={container}>
+        <button
+          onClick={() => {
+            [...document.querySelectorAll("input[type='checkbox']")].forEach(
+              (el) => {
+                if (el.checked) el.checked = false;
+              }
+            );
+            setAppliedFilters([]);
+          }}
+        >
+          reset
+        </button>
+      </div>
+      <div style={container} className="container">
         {<Fields handleChange={handleChange} />}
       </div>
     </div>
